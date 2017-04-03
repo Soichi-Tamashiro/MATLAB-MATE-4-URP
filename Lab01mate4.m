@@ -65,3 +65,8 @@ L4=limit(s,z,0)
 % i
 T=(z^5+z-34*i)/(z-2*i);
 L5=limit(T,z,2*i)
+% iv
+F=(z-sin(z))/(z*sin(z))^(3/2);
+L6=limit(F,z,0)
+F1=((z-sin(z))/(z^3))*(sin(z)/z)^(-3/2);
+L6=limit(F1,z,0)
