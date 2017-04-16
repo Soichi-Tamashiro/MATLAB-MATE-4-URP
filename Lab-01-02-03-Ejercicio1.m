@@ -2,12 +2,12 @@
     clc
 % Close all Open Figures( graphs )
     close all
-% Asignatura : Matem·tica IV
+% Asignatura : Matem√°tica IV
 %
-% Gr·ficas, LÌmites y continuidad en C - DerivaciÛn y AplicaciÛn
+% Gr√°ficas, L√≠mites y continuidad en C - Derivaci√≥n y Aplicaci√≥n
 % 1.-
 % Escribe como texto y usando Software Matlab graficar las siguientes
-% funciones en el plano de Argand ø QuÈ nombre genÈrico tiene estas
+% funciones en el plano de Argand ≈º Qu√© nombre gen√©rico tiene estas
 % superficies.
 % 
 % i)    F(z) = z^3
