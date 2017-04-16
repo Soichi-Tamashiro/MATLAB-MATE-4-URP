@@ -13,7 +13,7 @@
 % i)    F(z) = z^3
     z = cplxgrid(30);
     f = z.^3;
-    figure('name','F(z) = z^3');
+    figure('name','F(z) = z^3'); % Change the name of the Figure
     cplxmap(z,f)
 % ii)   g(z) = 1/(4*z^4)
     z = cplxgrid(30);
