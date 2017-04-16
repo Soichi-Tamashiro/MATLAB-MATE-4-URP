@@ -2,6 +2,8 @@
     clc
 % Close all Open Figures( graphs )
     close all
+% Clear Workspace
+    Clear
 % Asignatura : Matemática IV
 %
 % Gráficas, Límites y continuidad en C - Derivación y Aplicación
