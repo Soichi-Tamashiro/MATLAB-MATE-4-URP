@@ -42,3 +42,12 @@
 	syms z;
 	G = (sin(3*z)*sin(4*z)-z^2)/(z*sin(2*z));
 	L2 = limit(G,z,0)
+% 4.-
+%   
+    syms z;
+    H =(2.*exp(4.*z)-2-8.*z-16*z.^2)./(z-sin(z));
+    H1 = ((2.*exp(4.*z)-2-8.*z-16*z.^2)./(z-sin(z))-128)./z;
+    pretty(H1)
+    L3 = limit(H,z,0)
+   
+    
