@@ -14,6 +14,15 @@
 % 2.-
 %   i)  I=int(x^2*ydx+(y^3-x*y^2)dy)
 %       |z||=5
+syms x y;
+P = x^2*y;
+Q = y^3-x*y^2;
+Py = diff(P,y)
+Qx = diff(Q,x)
+syms r t;
+i = r^2*r;
+I = int(int(i,r,0,5),t,0,2*pi);
+pretty(I)
 %
 %--------------------------------------------------------
 % 3.-
